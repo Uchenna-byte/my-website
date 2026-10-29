@@ -1,0 +1,12 @@
+table,th,td{
+    border: solid 2px red;
+   border-radius: 10px;
+}
+table{
+    width: 70%;
+    border-spacing: 34px;
+    margin: auto;
+}
+th,td{
+    padding: 10px;background-color: rgba(138, 165, 42, 0.562);
+}

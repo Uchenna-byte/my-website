@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+</html>
+<head>
+  <title>my first page</title>  
+</head>
+<a href="app2.jpg">link in page</a>
+<h1 title="write whatever">my heading</h1>
+<img src="app4.jpg" alt="city" width="50%" height="400px">
+<h2>my heading</h2>
+<h3>my heading</h3>
+<h4>my heading</h4>
+<h5>my heading</h5>
+<h6>my heading</h6>
+<hr>
+<p>Lorem
+  , ipsum dolor sit amet consectetur adipisicing elit. Consequatur deserunt quo repellendus asperiores distinctio, exercitationem, iusto delectus perspiciatis aliquid, repudiandae sequi. Illo laborum, accusantium totam nostrum officiis, recusandae accusamus corrupti impedit reprehenderit magni sint eum porro neque possimus laudantium distinctio consectetur non mollitia sit delectus soluta perferendis! Nihil saepe nisi, officia quia dolore sapiente rerum non veritatis eligendi nemo sed sequi enim ab quibusdam laudantium dolorum earum! Nostrum in commodi accusamus expedita neque consequuntur saepe, explicabo iste dignissimos id unde tenetur velit sed veniam atque vitae repellendus quaerat fugiat omnis, possimus illo voluptatem? Sed unde earum cumque! Voluptate iure expedita, odit veritatis maxime ea modi! Nobis cumque asperiores consequatur ullam eaque, incidunt quia nam natus? Odio debitis voluptate modi ab accusantium a, reprehenderit temporibus delectus aut deleniti neque unde id maxime impedit exercitationem beatae? Sunt quas mollitia commodi aliquam! Ducimus est adipisci pariatur, magni ad non quibusdam, ullam, dicta debitis inventore maiores odio consequatur hic et sed nihil aut! Pariatur quod a nostrum quaerat deserunt alias quibusdam ab. Nobis dolores quia quisquam in distinctio minus omnis odio laborum, illum vitae et voluptate similique aspernatur consectetur nesciunt voluptatibus, accusamus corporis eveniet! Quasi dolor sequi et rem delectus nostrum at repellendus veritatis.
+br
+</p>

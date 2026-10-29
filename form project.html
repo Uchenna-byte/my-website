@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 80%;
+            margin: auto;
+        }
+        h1{
+            color: blue;
+            font-size: medium;
+        }
+        p{
+            color: blue;
+        }
+        ul{
+            color: black;
+        }
+        legend{
+            color: blue;
+        }
+        fieldset{
+        font-size: small;
+        }
+        .r2{
+        margin-right: 300px;
+        }
+        .bend{
+            margin-right: 65px;
+            
+        }
+        .oy{
+            margin-right: 100px;
+        }
+        #uy{
+            margin-right: 85px;
+        }
+        label{
+            margin-left: 60px;
+        }
+        option{
+            margin-right: 60px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+   <h1>upload resume</h1> 
+   <p>you are adviced to adhere to the following instrucstions while uploading your profile:</p>
+   <li>fill the form below</li>
+   <li>The form will not submit unless all the needed fields are filled</li>
+   <li>field marked <span style="color: red;">*</span> are compulsory.</li>
+   <li>Also ensure to upload your picture.</li>
+   </ul>
+   <form action="backend.php" method="post" target="_blank"></form>
+   <fieldset>
+    <legend>personal information</legend>
+    <div id="up">
+    <label for="fname">fullname <span style="color: red;">*</span></label>
+    <input type="text" placeholder="fullname" id=""><input type="text" placeholder="middlename" id=""><input type="text" placeholder="lastname" id="">
+    <br>
+    <label for="Date of birth">Date of birth <span style="color: red;">*</span></label>
+    <select name="" id="" class="oy">
+        <option value="day">Day</option>
+        <option value="day">1</option>
+        <option value="day">2</option>
+        <option value="day">3</option>
+        <option value="day">4</option>
+    </select>
+    <select name="" id="" class="oy">
+        <option value="">month</option>
+        <option value="">Jenuary</option>
+        <option value="">Febuary</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">Jully</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+    </select>
+    <select name="" id="" class="oy">
+        <option value="">Year</option>
+        <option value="">1989</option>
+        <option value="">1990r</option>
+        <option value="">1991</option>
+        <option value="">1992</option>
+        <option value="">1993</option>
+        <option value="">1994</option>
+    </select>
+    <br>
+    <label for="sex">Sex <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select</option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+    </select>
+    <br>
+    <label for="Marital">Marital <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select</option>
+        <option value="">Single</option>
+        <option value="">Married</option>
+    </select>
+    <br>
+    <label for="status">status <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select</option>
+        <option value="">Single</option>
+        <option value="">Married</option>
+    </select>
+    <br>
+    <label for="Religion">Religion <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select</option>
+        <option value="">Christian</option>
+        <option value="">Islamic</option>
+        <option value="">African tradition</option>
+    </select>
+    <br>
+    <label for="Address">Address <span style="color: red;">*</span></label>
+    <input type="text" size="50">
+    <br>
+    <label for="country">Country <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="pnumber">Phone number <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="email">Emale Address <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="nationality">Nationality <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="">State of origin <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">Select</option>
+        <option value="">Ebonyi</option>
+        <option value="">Enugu</option>
+        <option value="">Delta</option>
+        <option value="">Benin</option>
+        <option value="">Lagos</option>
+        <option value="">Bayelsa</option>
+        <option value="">Benue</option>
+        <option value="">Porthacurt</option>
+    </select>
+    <br>
+    <label for="">Local gov. Area <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="">Home Town <span style="color: red;">*</span></label>
+    <input type="text">
+    </div>
+ </fieldset>
+ <fieldset>
+    <legend>Educational Record</legend>
+    <label for="">Tetiary Institution 1 <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select institution-</option>
+    </select>
+    <br>
+    <label for="">Specify institution <span style="color: red;">*</span></label>
+    <input type="text" size="55">
+    <br>
+    <label for="">Date of Graduation <span style="color: red;">*</span></label>
+    <select name="" id="" class="r2">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="r2">
+        <option value="">To</option>
+    </select>
+    <br>
+    <label for="">Degree *</label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Class Of Certificate <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-Select type</option>
+    </select>
+    <br>
+    <label for="">Tetiary institution 2 <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select institution-</option>
+    </select>
+    <br>
+    <label for="">Specify institution <span style="color: red;">*</span></label>
+    <input type="text" size="55">
+    <br>
+    <label for="">Date of Graduation <span style="color: red;">*</span></label>
+    <select name="" id="" class="r2">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="r2">
+        <option value="">To</option>
+    </select>
+    <br>
+    <label for="">Degree *</label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Class of certificate <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Tetiary institution 3 <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select institution-</option>
+    </select>
+    <br>
+    <label for="">Specify institution <span style="color: red;">*</span></label>
+    <input type="text" size="55">
+    <br>
+    <label for="">Date of Graduation <span style="color: red;">*</span></label>
+    <select name="" id="" class="r2">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="r2">
+        <option value="">To</option>
+    </select>
+    <br>
+    <label for="">Degree *</label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Class of certificate <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Primary School <span style="color: red;">*</span></label>
+    <input type="text" size="55">
+    <br>
+    <label for="">Date of Graduation <span style="color: red;">*</span></label>
+    <select name="" id="" class="r2">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="r2">
+        <option value="">To</option>
+    </select>
+    <br>
+    <label for="">Certificate <span style="color: red;">*</span></label>
+    <select name="" id="">
+        <option value="">-select-</option>
+    </select>
+    <br>
+    <label for="">Professional Questions (if any)</label>
+    <br>
+    <label for="">Institution 1</label>
+    <input type="text">
+    <br>
+    <label for="">Certificate</label>
+    <input type="text">
+    <br>
+    <label for="">Institution 2</label>
+    <input type="text">
+    <br>
+    <label for="">Certificate</label>
+    <input type="text">
+</fieldset>
+<fieldset>
+    <legend>Work Experience</legend>
+    <label for="">company 1</label>
+    <input type="text" size="50">
+    <select name="" id="" class="bend">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="bend">
+        <option value="to">To</option>
+    </select>
+    <br>
+    <label for="">Company 2</label>
+    <input type="text" size="50">
+    <select name="" id="" class="bend">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="bend">
+        <option value="">To</option>
+    </select>
+    <br>
+    <label for="">Company 3</label>
+    <input type="text" size="50">
+    <select name="" id="" class="bend">
+        <option value="">From</option>
+    </select>
+    <select name="" id="" class="bend">
+        <option value="">To</option>
+    </select>
+</fieldset>
+
+   <fieldset>
+    <legend>Referee</legend>
+    <label for="">Referee 1</label><br>
+    <label for="">full Name <span style="color: red;">*</span></label>
+    <input type="text" size="70">
+    <br>
+    <label for="">phone number <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="">Email(optional)</label>
+    <input type="text">
+    <br>
+    <label for="">Referee 2</label><br>
+    <label for="">full Name <span style="color: red;">*</span></label>
+    <input type="text" size="70">
+    <br>
+    <label for="">Phone number <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    <label for="">Email (optional) <span style="color: red;">*</span></label>
+    <input type="text">
+    <br>
+    </fieldset>
+    <fieldset>
+    <legend>Additional information</legend>
+    <label for="">Describe Yourself</label>
+    <input type="text" size="80">
+    <br>
+    <label for="">what is your career Objective</label>
+    <input type="text" size="70">
+    <br>
+    <br>
+    <label for="">your greatest challenge so far</label>
+    <input type="text" size="70">
+    <br>
+    <br>
+    <label for="">How did you solve it?</label>
+    <input type="text" size="80">
+    <br>
+    <label for="">Upload Picture <span style="color: red;">*</span></label>
+    <input type="file">
+    <br>
+    <input type="submit" id="">
+    <input type="reset" id="">
+     </fieldset>
+     <p>digital dream ltd</p>
+</html>

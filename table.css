@@ -1,0 +1,17 @@
+table,th,td{
+}
+
+table{
+  width: 40%;
+  margin: auto;
+}
+
+small{
+  font-size: 7px;
+}
+
+th,
+td {
+  padding: 8px;
+
+}
